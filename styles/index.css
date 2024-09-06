@@ -1,0 +1,64 @@
+
+
+#main_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: azure;
+    p {
+        color: slategray;
+    }
+
+}
+
+.box1 img:hover {
+    transform: scale(1.1);
+
+
+}
+
+.box1 h1:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+
+
+h1, h4 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+h3:hover {
+    color: green;
+    transform: scale(1.1);
+
+}
+
+
+
+
+hr {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Can't figure out how to get section2 and section3 to be side by side while also being underneath section1.*/
+/* I cant get any flexbox effects to work without the whole resume looking off. Would love some feedback */
+#section3 {
+    float: right;
+}
+
+
+
